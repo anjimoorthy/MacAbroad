@@ -18,9 +18,9 @@
   <ion-content padding class="bg-class">
     <ion-list>
 
-    <ion-list-header  class="bg-class2" style = "font-family:Bebas Neue; font-size:20px"><div class="fadeIn">Select your major:</div></ion-list-header>
+      <ion-list-header  class="bg-class2" style = "font-size:20px"><div class="fadeIn">Select your major:</div></ion-list-header>
     <ion-item style="color: #1c357a">
-      <ion-label style="color: #1c357a;"><div class="fadeIn">Major</div></ion-label>
+      <ion-label style="color: #1c357a;"><div class="fadeIn"><span class="text-custom">Major</span></div></ion-label>
       <ion-select style="color: #1c357a" [(ngModel)] = "searchTerm" (ionChange)="setStars(); setFilteredItems(); createSort()" placeholder="Select a Major (Optional)">
         <ion-select-option value="any">Any</ion-select-option>
         <ion-select-option value="american studies">American Studies</ion-select-option>
@@ -65,7 +65,7 @@
     </ion-list>
 
     <ion-list>
-    <ion-list-header class="bg-class2" style = "font-family:Bebas Neue; font-size:20px"><div class="fadeIn">Select your preferred language of instruction:</div></ion-list-header>
+    <ion-list-header class="bg-class2" style = "font-size:20px"><div class="fadeIn">Select your preferred language of instruction:</div></ion-list-header>
     <ion-item style="color: #1c357a">
       <ion-label style="color: #1c357a"><div class="fadeIn">Language</div></ion-label>
       <ion-select style="color: #1c357a" [(ngModel)] ="searchTerm2" (ionChange)="setStars(); setFilteredItems(); createSort()" placeholder="Select a Language (Optional)">
@@ -89,7 +89,7 @@
     </ion-list>
 
     <ion-list>
-    <ion-list-header class="bg-class2" style = "font-family:Bebas Neue; font-size:20px"><div class="fadeIn">Select your preferred country to visit:</div></ion-list-header>
+    <ion-list-header class="bg-class2" style = "font-size:20px"><div class="fadeIn">Select your preferred country to visit:</div></ion-list-header>
     <ion-item style="color: #1c357a">
       <ion-label style="color: #1c357a"><div class="fadeIn">Country</div></ion-label>
       <ion-select style="color: #1c357a" [(ngModel)] = "searchTerm3" (ionChange)="setStars(); setFilteredItems(); createSort()" placeholder="Select a Country (Optional)">

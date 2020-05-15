@@ -31,7 +31,7 @@
 		</ng-container>
 	  </div>
 	  <ion-item>
-		<ion-label position="floating" color="primary" style="font-size:20px"><div class="fadeIn">Password</div></ion-label>
+		  <ion-label position="floating" color="primary" style="font-size:20px"><div class="fadeIn">Password</div></ion-label>
 		<div class="pad">
 		<ion-input color = "#1c357a" style="color: #1c357a" type="password" formControlName="password"></ion-input>
 		</div>
@@ -43,7 +43,7 @@
 		  </div>
 		</ng-container>
 	  </div>
-	  <ion-button class="submit-btn" expand="block" type="submit" [disabled]="!validations_form.valid" (click)="countup(); go()">Log In</ion-button>
+		<ion-button class="submit-btn" expand="block" type="submit" [disabled]="!validations_form.valid" (click)="countup(); go()">Log In</ion-button>
 	  <label class="error-message">{{errorMessage}}</label>
 	</form>
 

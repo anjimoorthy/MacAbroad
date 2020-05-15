@@ -2,6 +2,14 @@
 // http://ionicframework.com/docs/theming/
 
 /** Ionic CSS Variables **/
+
+@font-face {
+  font-family: 'Source Code Pro';
+  src: url('../assets/fonts/SourceCodePro-Light.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
 :root {
   /* primary **/
   /*--ion-color-primary: #1c357a;
@@ -93,17 +101,19 @@
   --ion-color-step-900: #1c357a;
   --ion-color-step-950: #1c357a;
 
+  --ion-font-family: 'Source Code Pro';
+
   $tabs-tab-color-active: color(dark);
 
-@font-face {
-  font-family: 'Helvetica';
-  src: ("../assets/fonts/BebasNeue-Regular.ttf");
-  font-weight: normal;
-  font-style: normal;
-  }
-  * {
-    font-family: 'Helvetica';
-  }
+//@font-face {
+//  font-family: 'Helvetica';
+//  src: ("../assets/fonts/BebasNeue-Regular.ttf");
+//  font-weight: normal;
+//  font-style: normal;
+//  }
+//  * {
+//    font-family: 'Helvetica';
+//  }
 
   .bg-class{
     --background: linear-gradient(197deg, rgb(40, 138, 230) 0%, rgb(33, 105, 172) 13.5%, rgb(53, 113, 170) 33.33%, rgb(3, 34, 59) 100%) !important;
